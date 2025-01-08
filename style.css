@@ -443,7 +443,7 @@ noscript {
 #name,
 #work {
   font-size: 8rem;
-  width: fit-content
+  width: fit-content;
 }
 
 #name,
@@ -1311,7 +1311,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 20px
+    padding: 30px
   }
 
   #hamburger-button {
