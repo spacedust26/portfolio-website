@@ -241,7 +241,7 @@ noscript {
   background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
   backdrop-filter: blur(10px);
   height: 75px;
-  width: 56%;
+  width: 60%;
   padding: 0 20px;
   justify-content: space-between;
   z-index: 999;
