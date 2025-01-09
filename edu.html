@@ -4,10 +4,23 @@
   <title>Pranamya G Kulal - Education</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   <link rel="stylesheet" href="edu.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
+    <div class="back-button">
+        <a href="index.html">
+            <div class="arrow-wrap">
+                <span class="arrow-part-1"></span>
+                <span class="arrow-part-2"></span>
+                <span class="arrow-part-3"></span>
+              </div>
+        </a>
+      </div>
     <div class="blob"></div>
+    <h2 class="section-heading-article" tabindex="0" aria-label="About me heading" style="text-align: center; padding-bottom: 16px;">
+      &#60;/Education&#62;
+    </h2>
       <div class="timeline">
           <!-- Pre-Schooling -->
           <div class="timeline-container primary">
@@ -56,4 +69,20 @@
           </div>
       </div>
   </div>
+<script>
+    var backButton = document.querySelector('.back-button')
+
+function backAnim(){  
+  if (backButton.classList.contains('back')){
+    backButton.classList.remove('back');
+  }
+  else{
+    backButton.classList.add('back');
+    setTimeout(backAnim, 1000);  
+  }
+}
+backButton.addEventListener('click', backAnim); 
+
+ 
+</script>
 </body>

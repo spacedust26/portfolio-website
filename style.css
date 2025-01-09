@@ -1698,6 +1698,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .container{
@@ -1826,6 +1827,10 @@ input:checked + label .description{
   background-image: url('./images/tacm-img.png');
   background-position: center;
 } 
+.card[for="c5"]{
+  background-image: url('./images/Eventzia.png');
+  background-position: center;
+}
 
 /* Responsive styles */
 
@@ -1936,7 +1941,7 @@ input:checked + label .description{
   }
 
   .card > .row > .description {
-    width: 520px;
+    width: 550px;
     font-size: 12px;
   }
 
@@ -1949,7 +1954,7 @@ input:checked + label .description{
     margin-top: 2px;
   }
   .card > .row > .icon {
-    width: 47px;
+    width: 35px;
     height: 35px;
   }
 }
