@@ -1831,6 +1831,10 @@ input:checked + label .description{
   background-image: url('./images/Eventzia.png');
   background-position: center;
 }
+.card[for="c6"]{
+  background-image: url('./images/m.jpg');
+  background-position: center;
+}
 
 /* Responsive styles */
 
